@@ -1,3 +1,5 @@
+from .__version__ import __version__
+
 from .chat_completion import ChatCompletion
 from .completion import Completion
 from .embedding import Embedding
@@ -20,3 +22,5 @@ class OpenAI:
     Thread = Thread
 
 openai = OpenAI()
+
+__all__ = ["openai", "__version__"]
