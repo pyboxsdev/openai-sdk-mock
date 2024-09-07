@@ -13,12 +13,12 @@ with open(Path(__file__).parent / "openai_mock" / "__version__.py", "r", encodin
 setup(
     name="openai-sdk-mock",
     version=about["__version__"],
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Ramses II",
+    author_email="ramses@pyboxs.com",
     description="A mock version of the OpenAI SDK for testing purposes",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/openai-sdk-mock",
+    url="https://github.com/pyboxsdev/openai-sdk-mock",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
