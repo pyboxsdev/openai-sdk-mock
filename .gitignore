@@ -1,0 +1,19 @@
+#Add gitignore for macOS and Python
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyx
+*.pxd
+*.pxi
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.o
+*.out
+*.exe
+*.class
